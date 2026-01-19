@@ -1,4 +1,4 @@
-import { useCart } from "../context/CartContext";
+import { useCart } from "./context/CartContext";
 import { db } from "../firebase";
 import { collection, addDoc, Timestamp } from "firebase/firestore";
 
